@@ -586,8 +586,8 @@ img {
 .modal-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-open.modal-icon:hover,
-.modal-open.modal-icon:focus {
+.modal-open .modal-icon:hover,
+.modal-open .modal-icon:focus {
   fill: #ffffff;
 }
 .modal-title {
