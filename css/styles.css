@@ -671,7 +671,7 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.modal-check-input :checked + .modal-check-span {
+.modal-check-input:checked + .modal-check-input.modal-check-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
