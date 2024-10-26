@@ -637,8 +637,8 @@ img {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-open:hover + .modal-icon,
-.modal-open:focus + .modal-icon {
+.modal-open:hover .modal-icon,
+.modal-open:focus .modal-icon {
   fill: #4d5ae5;
 }
 .modal-comment {
