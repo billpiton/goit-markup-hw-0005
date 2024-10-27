@@ -717,7 +717,7 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-open:focus + svg {
+.modal-open:focus {
   fill: #4d5ae5;
 }
 
