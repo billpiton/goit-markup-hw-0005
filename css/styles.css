@@ -17,6 +17,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+button {
+  cursor: pointer;
+}
 
 ul {
   list-style: none;
@@ -82,7 +85,7 @@ p {
 .contact {
   display: none;
 }
-.logo-a {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -90,12 +93,48 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.logo-b {
+.header-logo {
+  padding: 16 0;
+  display: block;
+}
+.header-logo.logo-part {
   color: #2e2f42;
 }
-.header-list {
-  padding: 16 0;
+
+.burger-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  fill: #2f2f37;
+}
+.burger-icon {
+  display: ruby-base;
+  fill: #2f2f37;
+}
+@media screen and (min-width: 768px) {
+  .butten-btn {
+    display: none;
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    gap: 40;
+  }
+  .contact {
+    font-style: normal;
+    display: block;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+  .header-logo {
+    padding: 24 0;
+    margin-right: 120px;
+  }
 }
